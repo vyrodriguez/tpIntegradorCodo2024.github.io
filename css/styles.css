@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 235, 216);
+    font-family: 'Comfortaa', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:right;
+    background-color: rgb(199, 220, 167);
+    font-size: 25x;
+    /* prueba */
+    
+}
+#logo{
+    width: 100px;
+}
+footer{
+    padding: 40px;
+    background-color: rgb(199, 220, 167);
+    text-align: right;
+    font-size: 25x;
+    margin-bottom: 0px;
+}
+nav ul{
+    padding-right: 0px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color:FFEBD8;
+}
