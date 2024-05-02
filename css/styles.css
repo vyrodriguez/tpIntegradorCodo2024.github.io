@@ -41,3 +41,87 @@ nav ul li a {
 nav ul li a:hover {
     background-color:FFEBD8;
 }
+
+/* Estilos de la pagina dulces */
+.box-main-recetas {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.box-contenido-recetas {
+    display: flex;
+    
+}
+
+.box-filtro-recetas {
+    
+   
+}
+
+.box-tarjetas-recetas {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.tarjeta-receta {
+    width: 288px;
+    height: 250px;
+    margin: 7px;
+    overflow: hidden;
+}
+
+.img-receta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-receta:hover {
+    cursor: pointer;
+}
+
+.descripcion-receta {
+    padding: 6px;
+    position: sticky;
+    background: rgb(27, 27, 27, .5);
+    width: 288px;
+    color: white;
+    bottom: 0;
+    height: 70px;
+}
+
+.descripcion-receta h1 {
+    margin: 10px;
+    font-size: 40px;
+
+}
+
+.descripcion-receta p {
+    margin: 20px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.tarjeta-receta:hover .descripcion-receta {
+    height: 251px;
+    bottom: 0;
+    background: black/0.5;
+    transition: 0.5s;
+    cursor: pointer;
+} 
+
+.tarjeta-receta:hover .descripcion-receta p {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.tarjeta-receta:hover img {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
