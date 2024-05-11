@@ -86,7 +86,8 @@ nav ul li a:hover {
     background-color:FFEBD8;
 }
 
-/* Estilos de la pagina dulces */
+/************** Estilos de la pagina dulces **************/
+
 .box-main-recetas {
     margin-left: 75px;
     margin-right: 75px;
@@ -94,20 +95,93 @@ nav ul li a:hover {
     margin-bottom: 60px;
 }
 
+.box-encabezado-recetas {
+    margin-bottom: 60px;
+}
+
+.encabezado-recetas {
+    margin-bottom: 8px;
+}
+
 .box-contenido-recetas {
     display: flex;
-    
 }
 
 .box-filtro-recetas {
-    
-   
+    width: 211px;
+}
+
+.label-filtro-recetas#label-buscar-recetas{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#input-buscar-recetas{
+    width: 100%;
+    padding: 5px;
+    border-color: #C7DCA7;
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+}
+
+.label-filtro-recetas#label-tiempo-preparacion {
+    margin-top: 33px;
+}
+
+.label-filtro-recetas{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight:900;
+}
+
+.box-min-preparacion{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.btn-min-preparacion{
+    width: 43px;
+    height: 43px;
+    font-size: 14px;
+    border-color: #C7DCA7;
+    border-style: groove;
+    background-color: white;
+}
+
+.btn-min-preparacion:active, .btn-filtro-recetas:active{
+    background-color: #C7DCA7;
+}
+
+.select-filtro-recetas{
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.box-btn-filtro-recetas{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-filtro-recetas{
+    width:95px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    border-color: #C7DCA7;
+    border-style:groove;
+    background-color: white;
 }
 
 .box-tarjetas-recetas {
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: center;
 }
 
@@ -138,15 +212,9 @@ nav ul li a:hover {
     height: 70px;
 }
 
-.descripcion-receta h1 {
-    margin: 10px;
-    font-size: 40px;
-
-}
-
 .descripcion-receta p {
-    margin: 20px;
-    font-size: 20px;
+    margin: 5px;
+    font-size: 14px;
     visibility: hidden;
     opacity: 0;
 }
@@ -169,3 +237,5 @@ nav ul li a:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
+
+/****************************************************************************/
