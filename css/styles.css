@@ -1,7 +1,47 @@
-body{
-    background-color: rgb(255, 235, 216);
-    font-family: 'Comfortaa', sans-serif;
+/* Estilos del footer */
+.columna {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .columna:last-child {
+    margin-right: 0;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  p{
+    text-align: center;
+  }
+
+#logoFooter{
+   display: flex;
+  align-items: center; /* Alinea verticalmente la imagen */
 }
+    body{
+        background-color: rgb(255, 235, 216);
+        font-family: 'Comfortaa', sans-serif;
+    }
 
 nav{
     display: flex;
@@ -14,12 +54,16 @@ nav{
 #logo{
     width: 100px;
 }
+.fila{
+    display: flex;
+}
 footer{
     padding: 40px;
     background-color: rgb(199, 220, 167);
     text-align: right;
     font-size: 25x;
     margin-bottom: 0px;
+    
 }
 nav ul{
     padding-right: 0px;
