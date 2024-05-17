@@ -239,3 +239,144 @@ nav ul li a:hover {
 }
 
 /****************************************************************************/
+
+/* Estilos para cada receta */
+.hero-receta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    height: 70vh;
+    border: #C7DCA7 solid 2px;
+}
+
+.hero-receta--titulo {
+    padding: 20px 30px;
+    background-color: rgba(199, 220, 167, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.hero-receta--titulo p {
+    text-align: left;
+}
+
+.hero-receta--imagen {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    transition: 0.5s;
+}
+
+.hero-receta--imagen img {
+    width: 100vh;
+    height: 70vh;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.boton-receta {
+    position: absolute;
+    z-index: 20;
+    margin-top: 55%;
+    margin-left: 40%;
+    display: flex;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1b1b1b;
+    background-color: rgba(199, 220, 167, 0.6);
+    padding: 12px;
+    text-transform: uppercase;
+    width: 230px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.boton-receta svg {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.boton-receta:hover {
+    cursor: pointer;
+    background-color: #C7DCA7;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.preparacion-receta {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 60px;
+    gap: 20px;
+    height: 70vh;
+}
+
+.preparacion-receta--ingredientes {
+    display: grid;
+    margin-top: 25px;
+    padding: 15px;
+    border: #C7DCA7 solid 3px;
+    border-radius: 20px;
+}
+
+.preparacion-receta--ingredientes h2 {
+    margin-bottom: 0;
+}
+
+.preparacion-receta--preparacion {
+    display: grid;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid #C7DCA7;  
+}
+
+td {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.preparacion-receta--preparacion p {
+    text-align: left;
+}
+/* Media queries de las recetas individuales */
+
+@media (max-width: 768px) {
+    .hero-receta {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .hero-receta--imagen img{
+        height: 400px;
+        width: 570px;
+        object-fit: cover;
+    }
+    .boton-receta {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .preparacion-receta {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }
+}
+
+/* ********************************************************************** */
