@@ -27,8 +27,8 @@
     background-color: rgba(255, 255, 255, 0.8); 
     border: 1px solid #ffffff; 
     border-radius: 10px; 
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: center; 
     transition: transform 0.6s ease, width 0.6s ease, height 0.6s ease; 
@@ -41,15 +41,15 @@
 }
 
 .overlay-box h3 {
-    font-size: 10px;
-    top: 40%; 
+    font-size: 15px;
+    top: 20px; 
     transform: translateY(-50%);
     font-weight: bold;
 }
 
 .overlay-box h4 {
-    font-size: 5px;
-    top: 10px; 
+    font-size: 10px;
+    top: 25px; 
     transform: translateY(-50%);
 }
 
