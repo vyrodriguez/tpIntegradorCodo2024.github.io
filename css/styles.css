@@ -1,3 +1,71 @@
+/* ESTILOS DE LA PAGINA DE INICIO */
+
+/* IMAGEN PRINCIPAL */
+.container {
+    position: relative;
+    display: inline-block; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.background-image {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ffffff; 
+    border-radius: 10px; 
+    width: 80%;
+    height: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    transition: transform 0.6s ease, width 0.6s ease, height 0.6s ease; 
+}
+
+.overlay-box h3, .overlay-box h4 {
+    width: 100%;
+    margin: 0; 
+    position: relative; 
+}
+
+.overlay-box h3 {
+    top: 40%; 
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+.overlay-box h4 {
+    top: 60%; 
+    transform: translateY(-50%);
+}
+
+#refContacto{
+    margin-top: 10px;
+    text-align: end;
+}
+
+.overlay-box:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Agranda el cuadro */
+}
+
+
+.titulosPaginaPrincipal{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
 /* Estilos del footer */
 .columna {
     flex: 1;
@@ -380,3 +448,94 @@ td {
 }
 
 /* ********************************************************************** */
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Estilos para tabletas */
+    .overlay-box {
+        width: 90%;
+        height: 60%;
+    }
+    
+    .overlay-box h3 {
+        font-size: 1.5em;
+    }
+    
+    .overlay-box h4 {
+        font-size: 1em;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .titulosPaginaPrincipal {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Estilos para móviles */
+    .overlay-box {
+        width: 95%;
+        height: 70%;
+    }
+    
+    .overlay-box h3 {
+        font-size: 1.2em;
+    }
+    
+    .overlay-box h4 {
+        font-size: 0.8em;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Estilos para pantallas de escritorio */
+    .overlay-box {
+        width: 60%;
+        height: 40%;
+    }
+    
+    .overlay-box h3 {
+        font-size: 2em;
+    }
+    
+    .overlay-box h4 {
+        font-size: 1.5em;
+    }
+
+    .titulosPaginaPrincipal {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+}
