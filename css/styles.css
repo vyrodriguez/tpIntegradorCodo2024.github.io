@@ -63,6 +63,7 @@
     margin-top: 5px;
     text-align: left;
     margin-left: 10px;
+    display: block;
 }
 
 /* Estilos del footer */
@@ -455,24 +456,46 @@ td {
 }
 /* Media queries de la página de inicio */
 
-@media (max-width: 768px) {
-    .hero-receta {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
+@media (min-width: 768px) {
+    
+    .overlay-box {
+        width: 90%;
+        height: 30%;
     }
-    .hero-receta--imagen img{
-        height: 400px;
-        width: 570px;
-        object-fit: cover;
+    
+    
+    .overlay-box h3 {
+        font-size: 25px;
+        top: 20px; 
+        transform: translateY(-50%);
+        font-weight: bold;
     }
-    .boton-receta {
-        margin-top: 10%;
-        margin-left: 30%;
+    
+    .overlay-box h4 {
+        font-size: 15px;
+        top: 25px; 
+        transform: translateY(-50%);
     }
-    .preparacion-receta {
-        display: grid;
-        grid-template-columns: 1fr;
-        height: 150vh;
+    
+    
+    .overlay-box:hover {
+        transform: translate(-50%, -50%) scale(1.1); /* Agranda el cuadro */
     }
+    
+    
+    .titulosPaginaPrincipal{
+        margin-top: 5px;
+        text-align: left;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    /* Estilos del footer */
+    .columna {
+        font-size: 19px;
+      }
+      footer h4, footer h5{
+        font-size: 2px;
+    }
+        
 }
