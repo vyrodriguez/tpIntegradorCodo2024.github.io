@@ -256,6 +256,9 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.box-tarjetas-recetas a {
+   text-decoration: none;
+}
 .tarjeta-receta {
     width: 288px;
     height: 250px;
@@ -320,6 +323,7 @@ nav ul li a:hover {
     margin: 60px;
     height: 70vh;
     border: #C7DCA7 solid 2px;
+
 }
 
 .hero-receta--titulo {
@@ -388,8 +392,9 @@ nav ul li a:hover {
     margin: 60px;
     gap: 20px;
     height: 70vh;
-}
+    
 
+}
 .preparacion-receta--ingredientes {
     display: grid;
     margin-top: 25px;
@@ -449,6 +454,7 @@ td {
         margin-left: 30%;
     }
     .preparacion-receta {
+        
         display: grid;
         grid-template-columns: 1fr;
         height: 150vh;
@@ -498,4 +504,23 @@ td {
         font-size: 2px;
     }
         
+}
+
+@media (min-width: 1024px) {
+    main{
+        margin-bottom: 20px;
+    }
+    nav{
+     font-size: 20px;   
+    }
+      footer h4, footer h5{
+        font-size: 20px;
+    }
+        
+    .preparacion-receta {
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }  
 }

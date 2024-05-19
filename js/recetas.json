@@ -1,0 +1,69 @@
+{
+    "recetas": [
+      {
+        "titulo": "Bizcochuelo de Chocolate",
+        "descripcion": "Aprende a preparar un exquisito bizcochuelo con nuestra receta",
+        "imagen": "./img/bizcochuelo.jpg",
+        "ingredientes": [
+          { "nombre": "Harina", "cantidad": "1 taza" },
+          { "nombre": "Azúcar", "cantidad": "1 taza" },
+          { "nombre": "Huevos", "cantidad": "3 unidades" },
+          { "nombre": "Aceite de oliva", "cantidad": "1/2 taza" },
+          { "nombre": "Yogur", "cantidad": "1 unidad" },
+          { "nombre": "Ralladura de limón", "cantidad": "1 unidad" },
+          { "nombre": "Levadura", "cantidad": "1 cucharadita" }
+        ],
+        "preparacion": [
+          "Precalienta el horno a 180ºC y tamiza la harina y la levadura sobre un bol.",
+          "Separa las yemas de las claras y resérvalas. Monta las claras a punto de nieve y reserva. Mezcla las yemas con el azúcar y añade el aceite de oliva poco a poco hasta que se integre.",
+          "Incorpora el yogur y la ralladura de limón primero, y a continuación agrega la harina y levadura mezclando hasta obtener una masa homogénea. Añade las claras a punto de nieve y remueve despacio.",
+          "Unta un molde con aceite de oliva y espolvorea un poco de harina. Vierte la mezcla y hornea 40 minutos. Para asegurarte de que está bien cocido, introduce un palillo largo y si sale limpio, es que está listo.",
+          "Sácalo del horno, déjalo enfriar y espolvorea el bizcocho con azúcar glas. Si quieres un bizcocho más cremoso, utiliza yogur griego."
+        ]
+      },
+      {
+        "titulo": "Chesee Cake de Dulce de Leche",
+        "descripcion": "Disfruta de un delicioso Chesee Cake de Dulce de Leche",
+        "imagen": "./img/cheesecake2.jpg",
+        "ingredientes": [
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" }
+        ],
+        "preparacion": [
+        ]
+      },
+      {
+        "titulo": "Carrot Cake",
+        "descripcion": "Disfruta de una deliciosa Carrot Cake",
+        "imagen": "./img/carrot_cake.jpg",
+        "ingredientes": [
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" }
+        ],
+        "preparacion": [
+        ]
+      },
+      {
+        "titulo": "Lemon Pie",
+        "descripcion": "Disfruta de un delicioso Lemon Pie",
+        "imagen": "./img/lemon-pie2.jpg",
+        "ingredientes": [
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" },
+          { "nombre": "", "cantidad": "" }
+        ],
+        "preparacion": [
+        ]
+      }
+      
+    ]
+  }
+  
