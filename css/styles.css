@@ -524,3 +524,42 @@ td {
         height: 150vh;
     }  
 }
+
+/* ********************************************************************** */
+/* Estilo para Contacto*/
+
+
+#form-contacto{
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #FFEBD8;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 1.8em;
+    color: black;
+    justify-content: center;
+}
+
+.input-grupo > input, select{
+    padding: 4.5px;
+    margin: 5px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.input-radio{
+    margin: 20px;
+    
+} 
+
+.grupo{
+    background-color: #C7DCA7;
+    padding: 2em;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    height: 100%;
+}
