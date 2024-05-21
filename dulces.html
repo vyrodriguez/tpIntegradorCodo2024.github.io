@@ -1,5 +1,7 @@
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas Dulces</title>
@@ -21,18 +23,20 @@
     
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
+
     <!-- Barra de navegacion -->
     <nav>
         <ul>
-                <a href="index.html"><img src="/img/pasteleria.png" alt="logo" id="logo"></a>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="dulces.html">Recetas Dulces</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        
+            <a href="index.html"><img src="img/pasteleria.png" alt="logo" id="logo"></a>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="dulces.html">Recetas Dulces</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul> 
     </nav>
 
     <!-- Main -->
@@ -112,53 +116,73 @@
             
             <!-- Tarjetas de recetas -->
             <div class="box-tarjetas-recetas">
-                <div class="tarjeta-receta">
+
+                <div class="tarjeta-receta" >
+                    <a href="recetasIndividuales.html?focus=bizcochuelo" id="linkBizcochuelo" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/bizcochuelo.webp" alt="bizcochuelo" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Bizcochuelo de Chocolate</h3>
                         <p>Dulce, blando y esponjoso, hecho generalmente con harina, huevos y azúcar, que se cuece en el horno. Y en este caso en particular de chocolate.</p>
                     </div>
+                    </a>
                 </div>
+
                 <div class="tarjeta-receta">
+                    <a href="recetasIndividuales.html?focus=cheesecake" id="linkCheesecake" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/cheesecake.jpg" alt="cheesecake-de-dulce-de-leche" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Cheese Cake de Dulce de Leche</h3>
                         <p>El Cheesecake o tarta de queso es un postre muy popular desde el siglo XX hecho a base de ricota, requesón, queso quark, azúcar y algunas veces otros ingredientes, tales como: huevos, crema de leche o nata, harina, patata, almendras o frutas.</p>
                     </div>
+                    </a>
                 </div>
+
                 <div class="tarjeta-receta">
+                    <a href="recetasIndividuales.html?focus=lemonpie" id="linkLemonpie" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/lemonPie.jpg" alt="lemon-pie" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Lemon Pie</h3>
                         <p>Tarta de limón hecha con una corteza de masa quebrada, rellena de crema de limón y un esponjoso merengue en la parte superior.</p>
                     </div>
+                    </a>
                 </div>
+
                 <div class="tarjeta-receta">
+                    <a href="recetasIndividuales.html?focus=trufas" id="linkTrufas" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/trufa-de-chocolate.jpg" alt="trufa-de-chocolate" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Trufa de Chocolate</h3>
                         <p>Dulce francés con aspecto y sabor similar al bombón pero elaborado con una mezcla de chocolate negro fundido (tipo fondant), mantequilla, azúcar glas, yema de huevo y a veces crema de leche.</p>
                     </div>
+                    </a>
                 </div>
+
                 <div class="tarjeta-receta">
+                    <a href="recetasIndividuales.html?focus=cupcake" id="linkCupcake" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/cupcake.jpg" alt="cupcake-de-vainilla" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Cupcake de Vainilla</h3>
                         <p>Un cupcake es una magdalena glamurosa, como con maquillaje (frosting) y mucho mas rica y bonita.</p>
                     </div>
+                    </a>
                 </div>
+
                 <div class="tarjeta-receta">
+                    <a href="recetasIndividuales.html?focus=alfajor" id="linkAfajor" style="text-decoration: none; color: inherit;">
                     <img src="./img/cards-images/alfajor-de-maicena.webp" alt="alfajor-de-maicena" class="img-receta">
                     <div class="descripcion-receta">
                         <h3>Alfajor de Maicena</h3>
                         <p>Tapas elaboradas a partir de almidón de maíz, relleno de dulce de leche y ralladura de coco envolviendo la unión del alfajor.</p>
                     </div>
+                    </a>
                 </div>
             </div>
 
         </section>
 
     </main>
+
+    <script src="js/dulces.js"></script>
 
     <!-- footer -->
     <footer>
@@ -177,7 +201,7 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
-          <div class="columna">
+        <div class="columna">
             <h5>¡Seguinos en nuestras redes sociales!</h5>
             <h4>
                 <a href="" target="_blank"><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
@@ -185,13 +209,18 @@
                 <a href="" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>
                 <a href="" target="_blank"><i class="fa-brands fa-square-youtube"style="color: #000000;" ></i></a>
             </h4>           
-          </div>
+        </div>
+        <div class="columna">
+            <ul>
+                <h5><li><a href="carrito.html">Carrito</a></li></h5>
+            </ul>     
+        </div>
         </div>
         
         <div class="fila">
             <div>Copyright ©2024 Codo a Codo, derechos reservados.</div>
         </div>
     </footer>
-    <script src="js/dulces.js"></script>
+
 </body>
 </html>
